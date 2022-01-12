@@ -1,0 +1,35 @@
+.Searchbar mat-form-field{
+  float:right;
+  padding: 5px;
+  width: 25%; 
+}
+.Searchbar{
+    height:70px;
+    width: 100%;
+    border: 2px solid grey;
+}
+.summary{
+    display:flex;
+}
+.summary div{
+    padding:20px;
+}
+img{
+    width:500px;
+    height: 500px;
+}
+
+button{
+    color:white;
+    background-color: #3f51b5;
+}
+.foot-container {
+    height: 24px;
+    margin-top: -36px;
+    
+  }
+  .foot-content {
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+  }

@@ -1,0 +1,93 @@
+[
+    {
+        "id":1,
+        "name":"Anna Karenina",
+        "Description":"Greta Garbo in Anna Karenina (1935), directed by Clarence Brown.",
+        "title":"Greta Garbo in Anna Karenina",
+        "Short_note":"Greta Garbo in Anna Karenina (1935), directed by Clarence Brown.",
+        "img_url":"../assets/Greta-Garbo-Anna-Karenina-Clarence-Brown.webp",
+        "detail":"Any fan of stories that involve juicy subjects like adultery, gambling, marriage plots, and, well, Russian feudalism, would instantly place Anna Karenina at the peak of their “greatest novels” list. And that’s exactly the ranking that publications like Time magazine have given the novel since it was published in its entirety in 1878. Written by Russian novelist Leo Tolstoy, the eight-part towering work of fiction tells the story of two major characters: a tragic, disenchanted housewife, the titular Anna, who runs off with her young lover, and a lovestruck landowner named Konstantin Levin, who struggles in faith and philosophy. Tolstoy molds together thoughtful discussions on love, pain, and family in Russian society with a sizable cast of characters regarded for their realistic humanity. The novel was especially revolutionary in its treatment of women, depicting prejudices and social hardships of the time with vivid emotion."
+    },
+    {
+        "id":2,
+        "name":"To Kill a Mockingbird",
+        "Description":"This book cover is one of many given to Harper Lee's classic work To Kill a Mockingbird (1960). The novel won a Pulitzer Prize in 1961 and the next year was made into an Academy Award-winning film.", 
+        "title":"To Kill a Mockingbird",
+        "img_url":"../assets/book-cover-To-Kill-a-Mockingbird-many-1961.webp",
+        "Short_note":"This book cover is one of many given to Harper Lee's classic work To Kill a Mockingbird (1960). The novel won a Pulitzer Prize in 1961 and the next year was made into an Academy Award-winning film.",
+        "detail":"Harper Lee, believed to be one of the most influential authors to have ever existed, famously published only a single novel (up until its controversial sequel was published in 2015 just before her death). Lee’s To Kill a Mockingbird was published in 1960 and became an immediate classic of literature. The novel examines racism in the American South through the innocent wide eyes of a clever young girl named Jean Louise (“Scout”) Finch. Its iconic characters, most notably the sympathetic and just lawyer and father Atticus Finch, served as role models and changed perspectives in the United States at a time when tensions regarding race were high. To Kill a Mockingbird earned the Pulitzer Prize for fiction in 1961 and was made into an Academy Award-winning film in 1962, giving the story and its characters further life and influence over the American social sphere."
+    },
+    {
+        "id":3,
+        "name":"One Hundred Years of Solitude",
+        "Description":"The late Colombian author Gabriel García Márquez published his most-famous work, One Hundred Years of Solitude, in 1967.",
+        "title":"Gabriel García Márquez",
+        "img_url":"../assets/Gabriel-Garcia-Marquez-1982.webp",
+        "Short_note":"Gabriel García Márquez, 1982.",
+        "detail":"The late Colombian author Gabriel García Márquez published his most-famous work, One Hundred Years of Solitude, in 1967. The novel tells the story of seven generations of the Buendía family and follows the establishment of their town Macondo until its destruction along with the last of the family’s descendents. In fantastical form, the novel explores the genre of magic realism by emphasizing the extraordinary nature of commonplace things while mystical things are shown to be common. Márquez highlights the prevalence and power of myth and folktale in relating history and Latin American culture. The novel won many awards for Márquez, leading the way to his eventual honor of the Nobel Prize for Literature in 1982 for his entire body of work, of which One Hundred Years of Solitude is often lauded as his most triumphant." 
+    },
+    {
+        "id":4,
+        "name":"The Great Gatsby",
+        "Description":"F. Scott Fitzgerald’s The Great Gatsby is distinguished as one of the greatest texts for introducing students to the art of reading literature critically",
+        "title":"F. Scott Fitzgerald",
+        "img_url":"../assets/F-Scott-Fitzgerald.webp",
+        "Short_note":"F. Scott Fitzgerald.",
+        "detail":"F. Scott Fitzgerald’s The Great Gatsby is distinguished as one of the greatest texts for introducing students to the art of reading literature critically (which means you may have read it in school). The novel is told from the perspective of a young man named Nick Carraway who has recently moved to New York City and is befriended by his eccentric nouveau riche neighbor with mysterious origins, Jay Gatsby. The Great Gatsby provides an insider’s look into the Jazz Age of the 1920s in United States history while at the same time critiquing the idea of the “American Dream.” Perhaps the most-famous aspect of the novel is its cover art—a piercing face projected onto a dark blue night sky and lights from a cityscape—an image that is also found, in a slightly different configuration, within the text itself as a key symbol." 
+    },
+    {
+        "id":5,
+        "name":"A Passage to India",
+        "Description":"E.M. Forster wrote his novel A Passage to India after multiple trips to the country throughout his early life.",
+        "title":"E.M. Forster",
+        "img_url":"../assets/EM-Forster.webp",
+        "Short_note":"E.M. Forster",
+        "detail":"E.M. Forster wrote his novel A Passage to India after multiple trips to the country throughout his early life. The book was published in 1924 and follows a Muslim Indian doctor named Aziz and his relationships with an English professor, Cyril Fielding, and a visiting English schoolteacher named Adela Quested. When Adela believes that Aziz has assaulted her while on a trip to the Marabar caves near the fictional city of Chandrapore, where the story is set, tensions between the Indian community and the colonial British community rise. The possibility of friendship and connection between English and Indian people, despite their cultural differences and imperial tensions, is explored in the conflict. The novel’s colorful descriptions of nature, the landscape of India, and the figurative power that they are given within the text solidifies it as a great work of fiction." 
+
+    },
+    {
+        "id":6,
+        "name":"Invisble Man",
+        "Description":"Ralph Ellison’s Invisible Man is a groundbreaking novel in the expression of identity for the African American male.",
+        "title":"Ralph Ellison",
+        "img_url":"../assets/Ralph-Ellison-1952.webp",
+        "Short_note":"Ralph Ellison, 1952.",
+        "detail":"Often confused with H.G. Wells’s science-fiction novella of nearly the same name (just subtract a “The”), Ralph Ellison’s Invisible Man is a groundbreaking novel in the expression of identity for the African American male. The narrator of the novel, a man who is never named but believes he is “invisible” to others socially, tells the story of his move from the South to college and then to New York City. In each location he faces extreme adversity and discrimination, falling into and out of work, relationships, and questionable social movements in a wayward and ethereal mindset. The novel is renowned for its surreal and experimental style of writing that explores the symbolism surrounding African American identity and culture. Invisible Man won the U.S. National Book Award for Fiction in 1953." 
+    },
+    {
+        "id":7,
+        "name":"Don Quixote",
+        "Description":"Don Quixote (right) and his servant Sancho Panza are pictured in an illustration from the book Don Quixote, by Miguel de Cervantes. The illustration appeared in an edition of the book that was published in the 1800s.",
+        "title":"Don Quixote",
+        "img_url":"../assets/Don-Quixote-Sancho-Panza-illustration-Miguel-de.webp",
+        "Short_note":"Don Quixote (right) and his servant Sancho Panza are pictured in an illustration from the book Don Quixote, by Miguel de Cervantes. The illustration appeared in an edition of the book that was published in the 1800s.",
+        "detail":"Miguel de Cervantes’s Don Quixote, perhaps the most influential and well-known work of Spanish literature, was first published in full in 1615. The novel, which is very regularly regarded as one of the best literary works of all time, tells the story of a man who takes the name “Don Quixote de la Mancha” and sets off in a fit of obsession over romantic novels about chivalry to revive the custom and become a hero himself. The character of Don Quixote has become an idol and somewhat of an archetypal character, influencing many major works of art, music, and literature since the novel’s publication. The text has been so influential that a word, quixotic, based on the Don Quixote character, was created to describe someone who is, “foolishly impractical especially in the pursuit of ideals; especially: marked by rash lofty romantic ideas or extravagantly chivalrous action.”" 
+    },
+    {
+        "id":8,
+        "name":"Beloved",
+        "Description":"Toni Morrison’s 1987 spiritual and haunting novel Beloved tells the story of an escaped slave named Sethe who has fled to Cincinnati, Ohio, in the year 1873.",
+        "title":"Toni Morrison",
+        "img_url":"../assets/Toni-Morrison-1993.webp",
+        "Short_note":"Toni Morrison, 1994.",
+        "detail":"Toni Morrison’s 1987 spiritual and haunting novel Beloved tells the story of an escaped slave named Sethe who has fled to Cincinnati, Ohio, in the year 1873. The novel investigates the trauma of slavery even after freedom has been gained, depicting Sethe’s guilt and emotional pain after having killed her own child, whom she named Beloved, to keep her from living life as a slave. A spectral figure appears in the lives of the characters and goes by the same name as the child, embodying the family’s anguish and hardship and making their feelings and past unavoidable. The novel was lauded for addressing the psychological effects of slavery and the importance of family and community in healing. Beloved was awarded the Pulitzer Prize for fiction in 1988." 
+    },
+    {
+        "id":9,
+        "name":"Mrs.Dalloway",
+        "Description":" Virginia Woolf’s Mrs. Dalloway describes exactly one day in the life of a British socialite named Clarissa Dalloway.",
+        "title":"Virginia Woolf",
+        "img_url":"../assets/Virginia-Woolf.webp",
+        "Short_note":"Virginia Woolf.",
+        "detail":"Possibly the most idiosyncratic novel of this list, Virginia Woolf’s Mrs. Dalloway describes exactly one day in the life of a British socialite named Clarissa Dalloway. Using a combination of a third-person narration and the thoughts of various characters, the novel uses a stream-of-consciousness style all the way through. The result of this style is a deeply personal and revealing look into the characters’ minds, with the novel relying heavily on character rather than plot to tell its story. The thoughts of the characters include constant regrets and thoughts of the past, their struggles with mental illness and post-traumatic stress from World War I, and the effect of social pressures. The novel’s unique style, subject, and time setting make it one of the most respected and regarded works of all time." 
+    },
+    {
+        "id":10,
+        "name":"The Color Purple",
+        "Description":"Oprah Winfrey in The Color Purple (1985).",
+        "title":"Oprah Winfrey in The Color Purple",
+        "img_url":"../assets/Oprah-Winfrey-The-Color-Purple.webp",
+        "Short_note":"Oprah Winfrey in The Color Purple (1985).",
+        "detail":"Though the epistolary novel (a novel in the form of letters written by one or more characters) was most popular before the 19th century, Alice Walker became a champion of the style with her 1982 Pulitzer Prize- and National Book Award-winning novel The Color Purple. Set in the post-Civil War American South, the novel follows a young African American girl named Celie into adulthood in letters she writes to God and to her sister Nettie. Celie faces sexual abuse by her father and eventually her husband, chronicling her own suffering and growth as well as that of her friends and family. The novel explores themes of sexism, racism, gender, sexual orientation, and disability through its grouping of disadvantaged and damaged characters who, over time, grow to shape their own lives. The story was adapted into an Academy Award-nominated film in 1985 that, despite widespread critical acclaim, was notoriously snubbed of all 11 awards it was nominated for." 
+    }
+]

@@ -1,0 +1,8 @@
+.Bookls{
+    border:1px grey solid;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+.Bookls div{
+    padding: 4px;
+}

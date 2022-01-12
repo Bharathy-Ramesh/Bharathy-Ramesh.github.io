@@ -1,0 +1,8 @@
+<mat-card>
+<div class="Bookls" *ngFor="let names of bookdata | filteroption:searchBook">
+    <div (click)="navigate(names)">
+    <h2>{{names.name}}</h2>
+    <p>{{names.Description}}</p>
+    </div>
+  </div>
+</mat-card>
