@@ -1,10 +1,11 @@
 <div class="Searchbar">
   <mat-form-field appearance="fill">
     <mat-label>Search</mat-label>
-    <input matInput [(ngModel)]="searchBook" (keyup.enter)="scrolltop(bookls)">
+    <input matInput [(ngModel)]="searchBook" (keyup.enter)="scrolltop()">
   </mat-form-field>
 </div>
-<mat-card>
+
+<mat-card *ngIf="flagset"> 
   <div class="summary">
     <div>
         <h1>
@@ -13,18 +14,22 @@
         <p style="text-align: justify;">
           HTML5 mobile template based on Framework7 V3, that allow you to create easily an application mobile For online library, bestseller shop company, literature blog, book lovers portal & online bookstore bureau. The template is responsive ,and it’s use framework 7. Silvius uses amazing icons and uniques pages to help you to create an amazing and flexible app mobile. You can turn Silvius into native app using for example Phonegap/Cordova.
         </p>
-        <div (click)="scrolltop(bookls)">
-        <button mat-button routerLink = '/booklist' [queryParams]="{searchBook}">Show Books</button>
-      </div>
+        <div>
+            <button mat-button routerLink = '/books'>Show Books</button>
+        </div>
     </div>
+
     <div>
        <img mat-card-image src="../assets/books.jpg">
     </div>
+
   </div>
 </mat-card> 
-<div #bookls (click)="scrolltop(bookls)"> 
+
+<div> 
   <router-outlet></router-outlet>
 </div>
+
 <div class="foot-container">
   <div class="foot-content">
   <h3>&copy; Copyright</h3>

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ActivatedRoute, Router } from '@angular/router';
-import { DataserveService } from '../dataserve.service';
+import { DataserveService } from '../services/dataserve.service';
 
 
 @Component({
@@ -15,19 +15,15 @@ export class BooklistsComponent implements OnInit {
   constructor(public http : HttpClient, public router:Router, public route : ActivatedRoute, public dataservice : DataserveService) { }
 
   ngOnInit(){
-    this.getData();
     this.getDetails();
-  }
-  getData(){
-    this.http.get('assets/bookname.json').subscribe( x =>
+    this.dataservice.getData();
+    this.dataservice.enableroute(false);
+    this.dataservice.getbooks.subscribe(res =>
       {
-        this.bookdata = x;
-      })
+        this.bookdata = res;
+      });
   }
-  navigate(det:any){
-    debugger;
-    this.router.navigate(['/bookdetail'],{ queryParams:det});
-  }
+  
   getDetails(){
     this.dataservice.currentDetails.subscribe((res) => 
       {  

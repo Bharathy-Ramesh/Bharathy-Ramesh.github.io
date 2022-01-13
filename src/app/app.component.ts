@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { DataserveService } from './dataserve.service';
+import { DataserveService } from './services/dataserve.service';
+import { ActivatedRoute, Router } from '@angular/router';
 
 
 
@@ -11,12 +12,15 @@ import { DataserveService } from './dataserve.service';
 export class AppComponent {
   title = 'Book_Store';
   searchBook: any;
-  constructor(public dataservice : DataserveService){}
-
-  scrolltop($el:any){
-    $el.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-    this.dataservice.changeMessage(this.searchBook);
+  flagset:any;
+  constructor(public dataservice : DataserveService, public router:Router, public route : ActivatedRoute){}
+  ngDoCheck(){
+    this.dataservice.flagdet.subscribe((res) => 
+      {  
+         this.flagset = res;
+      });
   }
-
-  
+  scrolltop(){
+    this.dataservice.changeMessage(this.searchBook);
+  }  
 }

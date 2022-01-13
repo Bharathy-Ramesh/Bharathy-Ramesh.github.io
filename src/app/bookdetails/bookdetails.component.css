@@ -5,3 +5,7 @@ img{
 p{
     text-align: justify;
 }
+button{
+    color:rgb(54, 52, 52);
+    background-color: #cfd4f0;
+}
