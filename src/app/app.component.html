@@ -3,7 +3,13 @@
     <mat-label>Search</mat-label>
     <input matInput [(ngModel)]="searchBook" (keyup.enter)="scrolltop()">
   </mat-form-field>
+
+  <div class="directions">
+    <button mat-raised-button routerLink = '/signin'>Login</button>
+    <button mat-raised-button routerLink = '/signup'>SignUp</button>
+  </div>
 </div>
+
 
 <mat-card *ngIf="flagset"> 
   <div class="summary">

@@ -1,0 +1,15 @@
+button{
+    margin:10px;
+}
+a{
+    cursor: pointer;
+}
+mat-card{
+    margin : 50px 500px 50px 500px;
+}
+form{
+    margin-left: 200px;
+}
+form mat-form-field{
+    width: 50%;
+}
