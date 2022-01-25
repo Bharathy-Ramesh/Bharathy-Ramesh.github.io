@@ -4,6 +4,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 
 
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -23,4 +24,7 @@ export class AppComponent {
   scrolltop(){
     this.dataservice.changeMessage(this.searchBook);
   }  
+  logout(){
+    this.dataservice.logout();
+  }
 }

@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot, CanActivate, CanActivateChild, CanDeactivate, CanLoad, Route, Router, RouterStateSnapshot, UrlSegment, UrlTree } from '@angular/router';
 import { Observable } from 'rxjs';
+import { DataserveService } from './services/dataserve.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AuthGuard implements CanActivate, CanActivateChild, CanDeactivate<unknown>, CanLoad {
-  constructor(private router: Router){}
+  constructor(private router: Router, private dataservice : DataserveService){}
   canActivate(
     route: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
@@ -35,6 +36,7 @@ export class AuthGuard implements CanActivate, CanActivateChild, CanDeactivate<u
   checkLogin(url: string): true | UrlTree{
     console.log("Url: " + url)
     debugger;
+    this.dataservice.enableroute(false);
     let val = localStorage.getItem('localdata');
     let routeLink;
 

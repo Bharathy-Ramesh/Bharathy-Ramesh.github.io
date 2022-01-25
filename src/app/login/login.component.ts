@@ -29,7 +29,7 @@ export class LoginComponent implements OnInit {
   }; 
   Login(logindet:any){
     console.log(logindet);
-    this.dataservice.login(logindet.value.userName, logindet.value.password).subscribe( data => { 
+    this.dataservice.login(logindet.value.username, logindet.value.password).subscribe( data => { 
             console.log("Is Login Success: " + data); 
       
            if(data) this.router.navigate(['/books']); 

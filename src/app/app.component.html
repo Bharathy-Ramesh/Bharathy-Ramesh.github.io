@@ -5,8 +5,9 @@
   </mat-form-field>
 
   <div class="directions">
-    <button mat-raised-button routerLink = '/signin'>Login</button>
+    <button *ngIf="flagset" mat-raised-button routerLink = '/signin'>Login</button>
     <button mat-raised-button routerLink = '/signup'>SignUp</button>
+    <button *ngIf="!flagset" mat-raised-button (click)="logout()">Logout</button>
   </div>
 </div>
 

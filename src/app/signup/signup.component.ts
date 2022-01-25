@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { FormControl, FormArray, FormGroup, Validators} from '@angular/forms';
 import { DataserveService } from '../services/dataserve.service';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-signup',
   templateUrl: './signup.component.html',
@@ -11,7 +12,7 @@ export class SignupComponent implements OnInit {
 
   signform:FormGroup;
   hide:boolean = true;
-  constructor(private dataservice : DataserveService) {
+  constructor(private dataservice : DataserveService, private router : Router) {
     this.signform = new FormGroup({
       'name': new FormControl(),
       'password': new FormControl('', [Validators.required]),
@@ -35,6 +36,12 @@ export class SignupComponent implements OnInit {
   }
   SignUP(value:any){
     console.log("check",value);
+    this.dataservice.SignUp(value.value.email, value.value.password).subscribe( data => { 
+      console.log("Is Login Success: " + data); 
+
+     if(data) this.router.navigate(['/books']); 
+     else this.router.navigate(['/signin']);
+});
   }
 
   typingPwd(){
@@ -51,6 +58,8 @@ export class SignupComponent implements OnInit {
   get f(){
     return this.signform.controls;
   }
+
+  
 
 }
 
